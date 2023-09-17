@@ -1,0 +1,24 @@
+header{
+    border: 1px solid black;
+}
+main{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    flex: auto;
+}
+footer{
+    border: 1px solid black;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto; 
+    padding: 10px; 
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto; 
+    padding: 10px; 
+}
