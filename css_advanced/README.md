@@ -3,14 +3,14 @@
 Welcome to my webpage project. This consit of a simple HTML and css project.
 It consists of different sections which are the below:
 
-[x] Header which contain the web icon and nav bar
-[x] welcoming text
-[x] subscribers
-[x] Motivational quote
-[x] video section
-[x] Membership sections
-[x] Frequently asked questions 
-[x] Footer
+- Header which contain the web icon and nav bar
+- welcoming text
+- subscribers
+- Motivational quote
+- video section
+- Membership sections
+- Frequently asked questions 
+- Footer
 
 ##  How to run this project
 
