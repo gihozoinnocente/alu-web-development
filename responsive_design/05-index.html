@@ -7,7 +7,6 @@
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
     <title>Homepage - Techium</title>
-    <script src="https://kit.fontawesome.com/6b0cc2f9d5.js" crossorigin="anonymous"></script>
     <meta
       name="description"
       content="Description of the page less than 150 characters"
@@ -17,7 +16,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="04-styles.css" />
+    <link rel="stylesheet" href="05-styles.css" />
   </head>
   <body>
     <!-- Header -->
@@ -34,15 +33,11 @@
               />
             </a>
           </div>
-
-          
+          <!--Menu That will not be seen-->
           <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn" ><span class="navicon">&#9776;</span></label>
-
-          <!-- <label class="menu-icon" for="menu-btn"
-            >
-          ></label> -->
-
+          <label class="menu-icon" for="menu-btn">
+            <span class="navicon"></span>
+          </label>
           <nav class="navbar-menu">
             <ul class="nav">
               <li class="nav-item">
@@ -98,7 +93,7 @@
     </header>
     <!-- Main -->
     <main>
-      <!-- Hero section  -->
+      <!-- Hero section -->
       <section class="section-hero hero-homepage" data-section-theme="dark">
         <div class="container">
           <div class="section-body">
@@ -224,10 +219,14 @@
             <div class="row">
               <div class="col-1-2">
                 <img
-                  src="images/pic-about-01.jpg"
-                  alt=""
-                  width="460"
-                  height="460"
+                  sizes="(max-width: 742px) 100vw, 742px"
+                  srcset="
+                    images/pic-about-01_pbbib8_c_scale,w_280.jpg 280w,
+                    images/pic-about-01_pbbib8_c_scale,w_696.jpg 696w,
+                    images/pic-about-01_pbbib8_c_scale,w_742.jpg 742w
+                  "
+                  src="images/pic-about-01_pbbib8_c_scale,w_742.jpg"
+                  alt="breakpoint image"
                 />
               </div>
               <div class="col-1-2">
@@ -272,10 +271,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-01.jpg"
-                      alt=""
-                      width="305"
-                      height="305"
+                      sizes="(max-width: 500px) 100vw, 500px"
+                      srcset="
+                        images/pic-article-01_d3ok7u_c_scale,w_380.jpg 380w,
+                        images/pic-article-01_d3ok7u_c_scale,w_500.jpg 500w
+                      "
+                      src="images/pic-article-01_d3ok7u_c_scale,w_500.jpg"
+                      alt="breakpoint image"
                     />
                   </div>
                   <p class="card-category">Career</p>
@@ -294,10 +296,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-02.jpg"
-                      alt=""
-                      width="305"
-                      height="305"
+                      sizes="(max-width: 500px) 100vw, 500px"
+                      srcset="
+                        images/pic-article-02_o90pcp_c_scale,w_380.jpg 380w,
+                        images/pic-article-02_o90pcp_c_scale,w_500.jpg 500w
+                      "
+                      src="images/pic-article-02_o90pcp_c_scale,w_500.jpg"
+                      alt="breakpoint images"
                     />
                   </div>
                   <p class="card-category">Digital Life</p>
@@ -320,10 +325,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-03.jpg"
-                      alt=""
-                      width="305"
-                      height="305"
+                      sizes="(max-width: 500px) 100vw, 500px"
+                      srcset="
+                        images/pic-article-03_ngtzms_c_scale,w_380.jpg 380w,
+                        images/pic-article-03_ngtzms_c_scale,w_500.jpg 500w
+                      "
+                      src="images/pic-article-03_ngtzms_c_scale,w_500.jpg"
+                      alt="breakpoint image"
                     />
                   </div>
                   <p class="card-category">Social</p>
